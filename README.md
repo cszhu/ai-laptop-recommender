@@ -4,7 +4,7 @@ Hello! This is a simple little app that asks AI to find you a new laptop, which 
 
 ## 📖 How to use:
 
-You can visit the app here on Vercel:
+You can visit the app here on Vercel: https://laptop-recommender.vercel.app/
 
 Simply type in your budget, how much you use your laptop, and what programs you tend to use. It will then give you a recommendation along with Amazon and Google links.
 
