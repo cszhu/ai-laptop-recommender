@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  laptop-recommender:
+    container_name: laptop-recommender
+    build: .
+    env_file:
+      - .env.production
+    ports:
+      - "3000:3000"
+  weaviate:
+    environment:
+      ENABLE_MODULES: 'text2vec-openai,qna-openai'
